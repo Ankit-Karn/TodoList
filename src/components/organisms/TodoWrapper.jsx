@@ -32,7 +32,7 @@ const TodoWrapper = () => {
     <div className={styles.TodoWrapper}>
       <TodoForm addTodo={addTodo} />
       {todos.map((todo, index)=>(
-        <Todo task={todo} key={index} toggleComplete={toggleComplete} deleteTodo={deleteTodo} />
+      <Todo task={todo} key={index} toggleComplete={toggleComplete} deleteTodo={deleteTodo} />
       ))}
     </div>
   )
